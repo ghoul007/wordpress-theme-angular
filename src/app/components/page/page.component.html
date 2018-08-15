@@ -1,0 +1,5 @@
+<article *ngIf="page" id="page-{{page.id}}">
+
+    <h1 [innerHTML]="page.title.rendered"></h1>
+    <div [innerHTML]="page.content.rendered"></div>
+  </article>

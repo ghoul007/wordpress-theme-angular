@@ -1,0 +1,10 @@
+<!-- <div *ngIf="post">
+  {{post.title.rendered}}
+</div> -->
+<h1>
+  <a [routerLink]="['/posts/', post.slug]">
+    {{post.title.rendered}}
+  </a>
+</h1>
+
+<!-- <div class="content" [innerHTML]="post.except.rendered"></div> -->
